@@ -17,7 +17,13 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   height: 13vh;
-  background: #ddd;
+  width: 100%;
+  background: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 0;
+  border-bottom: #ddd solid 1px;
 }
 
 .nav-list-items {
@@ -73,5 +79,44 @@ nav .button-and-toggle .nav-toggle i img {
   width: 30px;
   height: auto;
   margin-bottom: -0.6em;
+}
+
+.toggle-content {
+  display: none;
+}
+
+.hero-section {
+  height: 87vh;
+  width: 100%;
+  background-image: url(/exported/hero-section-img.png);
+}
+
+.hero-section .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .content h1 {
+  color: #ddfafc;
+  width: 80%;
+  text-align: center;
+}
+
+.hero-section .content img {
+  display: block;
+  position: fixed;
+  right: 33px;
+  bottom: 33px;
+  width: 56px;
+  height: 56px;
 }
 /*# sourceMappingURL=main.css.map */
