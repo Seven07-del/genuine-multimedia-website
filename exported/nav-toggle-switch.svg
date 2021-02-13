@@ -1,0 +1,25 @@
+<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="nav-toggle-switch">
+<rect id="toggle container" x="0.5" y="0.499878" width="44" height="44" rx="1.5" stroke="#00BFC2"/>
+<g id="nav toggle strokes">
+<g id="Rectangle 5">
+<rect x="9.5" y="10.4999" width="27" height="1" rx="0.5" fill="#181717"/>
+<rect x="9.5" y="10.4999" width="27" height="1" rx="0.5" fill="#181717"/>
+<rect x="9.5" y="10.4999" width="27" height="1" rx="0.5" fill="#181717"/>
+<rect x="9.5" y="10.4999" width="27" height="1" rx="0.5" stroke="#00BFC2"/>
+</g>
+<g id="Rectangle 6">
+<rect x="9.5" y="21.5005" width="22.4595" height="1" rx="0.5" fill="#181717"/>
+<rect x="9.5" y="21.5005" width="22.4595" height="1" rx="0.5" fill="#181717"/>
+<rect x="9.5" y="21.5005" width="22.4595" height="1" rx="0.5" fill="#181717"/>
+<rect x="9.5" y="21.5005" width="22.4595" height="1" rx="0.5" stroke="#00BFC2"/>
+</g>
+<g id="Rectangle 7">
+<rect x="9.5" y="32.5" width="14.8919" height="1" rx="0.5" fill="#181717"/>
+<rect x="9.5" y="32.5" width="14.8919" height="1" rx="0.5" fill="#181717"/>
+<rect x="9.5" y="32.5" width="14.8919" height="1" rx="0.5" fill="#00BABD"/>
+<rect x="9.5" y="32.5" width="14.8919" height="1" rx="0.5" stroke="#00BFC2"/>
+</g>
+</g>
+</g>
+</svg>

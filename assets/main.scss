@@ -3,5 +3,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Montserrat, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+    background: #ddd;
+
+}
+.nav-list-items {
+    display: flex;
+    align-self: center;
+}
+.nav-list-items ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    // background-color: hotpink;
+
+
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            margin-left: 1em;
+            margin-right: 1em;
+            letter-spacing: 0.02em;
+        }
+    }
+}
+
+nav {
+    .button-and-toggle {
+        display: flex;
+
+        .nav-button {
+            
+            a {
+                text-decoration: none;
+                display: block;
+                background-color: hotpink;
+                padding: 5px 8px 4px;
+                border: 2px solid black;
+                border-radius: 4px;
+            }
+        }
+        .nav-toggle {
+            margin-left: 1.5em;
+
+            i img {
+                width: 30px;
+                height: auto;
+                margin-bottom: -0.6em;
+            }
+        }
+    }
 }
