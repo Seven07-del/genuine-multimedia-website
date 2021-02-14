@@ -24,6 +24,33 @@ nav {
   left: 0;
   top: 0;
   border-bottom: #ddd solid 1px;
+  z-index: 999;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .logo img {
+  width: 2.6em;
+  height: 2.8em;
+}
+
+nav .logo span {
+  font-weight: bold;
+  color: #3A8D8E;
+  width: 130px;
+  height: 50px;
+  margin-left: 5px;
+}
+
+nav .logo span p {
+  font-size: 21px;
+  line-height: 24px;
+  width: 100%;
+  height: 100%;
 }
 
 .nav-list-items {
@@ -54,6 +81,20 @@ nav {
   margin-left: 1em;
   margin-right: 1em;
   letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00BABD;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 10px;
 }
 
 nav .button-and-toggle {
@@ -65,19 +106,27 @@ nav .button-and-toggle {
 nav .button-and-toggle .nav-button a {
   text-decoration: none;
   display: block;
-  background-color: hotpink;
-  padding: 5px 8px 4px;
-  border: 2px solid black;
+  background-color: #fff;
+  text-align: center;
+  padding: 6px 14px 5px;
+  border: 2px solid #00cacc;
   border-radius: 4px;
+  color: #00cacc;
+  font-style: normal;
+  font-size: 0.8em;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 nav .button-and-toggle .nav-toggle {
   margin-left: 1.5em;
+  cursor: pointer;
 }
 
-nav .button-and-toggle .nav-toggle i img {
-  width: 30px;
-  height: auto;
+nav .button-and-toggle .nav-toggle img {
+  width: 35px;
+  height: 100%;
   margin-bottom: -0.6em;
 }
 
@@ -88,7 +137,7 @@ nav .button-and-toggle .nav-toggle i img {
 .hero-section {
   height: 87vh;
   width: 100%;
-  background-image: url(/exported/hero-section-img.png);
+  background: url(/exported/hero-section-img.png) center/cover no-repeat fixed;
 }
 
 .hero-section .content {
@@ -106,17 +155,145 @@ nav .button-and-toggle .nav-toggle i img {
 }
 
 .hero-section .content h1 {
-  color: #ddfafc;
   width: 80%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
   text-align: center;
+  color: #EEFFFF;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.41);
 }
 
-.hero-section .content img {
+.hero-section .content .livechat {
+  position: fixed;
+  right: 33px;
+  bottom: 33px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.hero-section .content .livechat img {
   display: block;
   position: fixed;
   right: 33px;
   bottom: 33px;
   width: 56px;
   height: 56px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.hero-section .content .livechat .chat-text {
+  position: absolute;
+  width: 121px;
+  right: 4em;
+  top: -3.5em;
+  text-transform: uppercase;
+  background-color: #f5f7f9;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: #43474e;
+  padding: 7px;
+  margin-right: 14px;
+  letter-spacing: 0.03em;
+}
+
+.about-us {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 1.4em;
+  margin-bottom: 1.5em;
+  height: 220px;
+  background: rgba(245, 252, 255, 0.67);
+  border: 1px solid #319697;
+}
+
+.about-us h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #378586;
+  margin-top: 14px;
+}
+
+.about-us p {
+  font-size: 14px;
+  /* or 15px */
+  text-align: center;
+  font-weight: 500;
+  color: #5C656C;
+  width: 80%;
+  margin: auto;
+}
+
+.our-services {
+  width: 100%;
+  height: auto;
+  background-image: url(/exported/what-we-do-bg.png);
+  background-color: rgba(26, 34, 62, 0.83);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 12px;
+  padding-bottom: 1em;
+}
+
+.our-services h3 {
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #F5FFFF;
+}
+
+.box {
+  width: 70%;
+  margin: auto;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 1em;
+}
+
+.box .img {
+  width: 50%;
+  height: 100%;
+}
+
+.box .img img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.box .text {
+  width: 50%;
+  background: #F4FCFF;
+}
+
+.box .text h4 {
+  color: #1E4546;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.box .text p {
+  font-size: 13px;
+  font-weight: 40;
+  text-align: center;
+  width: 90%;
+  margin: auto;
 }
 /*# sourceMappingURL=main.css.map */
