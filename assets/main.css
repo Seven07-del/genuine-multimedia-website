@@ -298,6 +298,10 @@ nav .button-and-toggle .nav-toggle img {
 }
 
 /* Gallery */
+.gallery-container {
+  margin-bottom: 1em;
+}
+
 .gallery h4 {
   margin-top: 10px;
   font-weight: 600;
@@ -346,5 +350,13 @@ nav .button-and-toggle .nav-toggle img {
         -ms-flex: 100%;
             flex: 100%;
   }
+}
+
+.get-in-touch {
+  padding-top: 1em;
+}
+
+.get-in-touch form {
+  padding: 1em 2em 3em;
 }
 /*# sourceMappingURL=main.css.map */
