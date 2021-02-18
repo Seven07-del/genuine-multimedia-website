@@ -354,6 +354,7 @@ nav .button-and-toggle .nav-toggle img {
 
 .get-in-touch {
   padding-top: 1em;
+  padding-bottom: 1em;
   background: #00cacc2b;
 }
 
@@ -376,6 +377,9 @@ nav .button-and-toggle .nav-toggle img {
 
 .get-in-touch form input[type="text"], .get-in-touch form input[type="email"], .get-in-touch form button {
   height: 45px;
+}
+
+.get-in-touch form input[type="text"], .get-in-touch form input[type="email"] {
   padding-bottom: 0.2px;
 }
 
@@ -386,6 +390,10 @@ nav .button-and-toggle .nav-toggle img {
   border: 1px solid #40CDAB;
   outline: none;
   font-weight: 600;
-  padding-bottom: 0.3px !important;
+}
+
+.get-in-touch form button:hover, .get-in-touch form button:focus {
+  color: #01b88d;
+  background: white;
 }
 /*# sourceMappingURL=main.css.map */

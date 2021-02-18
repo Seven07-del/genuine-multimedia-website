@@ -315,6 +315,7 @@ nav {
 
 .get-in-touch {
     padding-top: 1em;
+    padding-bottom: 1em;
     background: #00cacc2b;
 
     h5 {
@@ -333,6 +334,8 @@ nav {
         }
         input[type="text"], input[type="email"], button {
             height: 45px;
+        }
+        input[type="text"], input[type="email"] {
             padding-bottom: 0.2px;
         }
         button {
@@ -342,7 +345,11 @@ nav {
             border: 1px solid #40CDAB;
             outline: none;
             font-weight: 600;
-            padding-bottom: 0.3px !important;
+            // padding-bottom: 0.3px !important;
+        }
+        button:hover, button:focus {
+            color: #01b88d;
+            background: white;
         }
         // .id-field {
         //     display: flex;
