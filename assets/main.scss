@@ -315,16 +315,35 @@ nav {
 
 .get-in-touch {
     padding-top: 1em;
+    background: #00cacc2b;
 
     h5 {
         color: #646464;
-        font-size: 1em;
-        font-weight: 500;
+        font-size: 1.15em;
+        font-weight: 600;
         text-align: center;
+        margin-top: 5px;
+        letter-spacing: 1px;
     }
     form {
         padding: 1em 1.5em 3em;
 
+        .form-group {
+            margin-bottom: 1em;
+        }
+        input[type="text"], input[type="email"], button {
+            height: 45px;
+            padding-bottom: 0.2px;
+        }
+        button {
+            letter-spacing: 2px;
+            background: #40CDAB;
+            color: white;
+            border: 1px solid #40CDAB;
+            outline: none;
+            font-weight: 600;
+            padding-bottom: 0.3px !important;
+        }
         // .id-field {
         //     display: flex;
         //     flex-wrap: wrap;

@@ -354,16 +354,38 @@ nav .button-and-toggle .nav-toggle img {
 
 .get-in-touch {
   padding-top: 1em;
+  background: #00cacc2b;
 }
 
 .get-in-touch h5 {
   color: #646464;
-  font-size: 1em;
-  font-weight: 500;
+  font-size: 1.15em;
+  font-weight: 600;
   text-align: center;
+  margin-top: 5px;
+  letter-spacing: 1px;
 }
 
 .get-in-touch form {
   padding: 1em 1.5em 3em;
+}
+
+.get-in-touch form .form-group {
+  margin-bottom: 1em;
+}
+
+.get-in-touch form input[type="text"], .get-in-touch form input[type="email"], .get-in-touch form button {
+  height: 45px;
+  padding-bottom: 0.2px;
+}
+
+.get-in-touch form button {
+  letter-spacing: 2px;
+  background: #40CDAB;
+  color: white;
+  border: 1px solid #40CDAB;
+  outline: none;
+  font-weight: 600;
+  padding-bottom: 0.3px !important;
 }
 /*# sourceMappingURL=main.css.map */
