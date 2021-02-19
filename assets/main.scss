@@ -456,6 +456,7 @@ footer {
 @media (max-width: 670px) {
     .about-us {
         width: 95%;
+        height: 230px;
 
         h2 {
             margin-bottom: 0.1rem;
@@ -467,3 +468,4 @@ footer {
     }
 }
 
+// Next on the list is media query for our services box where images and text boxes take up full width

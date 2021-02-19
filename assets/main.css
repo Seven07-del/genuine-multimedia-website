@@ -503,6 +503,7 @@ footer p .sitename {
 @media (max-width: 670px) {
   .about-us {
     width: 95%;
+    height: 230px;
   }
   .about-us h2 {
     margin-bottom: 0.1rem;
