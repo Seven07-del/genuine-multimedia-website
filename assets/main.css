@@ -303,7 +303,7 @@ nav .button-and-toggle .nav-toggle img {
 }
 
 .gallery h4 {
-  margin-top: 10px;
+  margin-top: 20px;
   font-weight: 600;
   color: #87a0a0;
   margin-bottom: 0;
@@ -387,7 +387,7 @@ nav .button-and-toggle .nav-toggle img {
   letter-spacing: 2px;
   background: #40CDAB;
   color: white;
-  border: 1px solid #40CDAB;
+  border: 2px solid #40CDAB;
   outline: none;
   font-weight: 600;
 }
@@ -462,5 +462,54 @@ footer p .year {
 footer p .sitename {
   color: #E8E9E9;
   font-weight: 500;
+}
+
+@media (max-width: 998px) {
+  .our-services .box {
+    width: 80%;
+  }
+  .about-us p {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-list-items {
+    display: none;
+  }
+  .about-us {
+    width: 80%;
+  }
+}
+
+@media (max-width: 840px) {
+  .our-services .box {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us {
+    width: 90%;
+  }
+  .above-footer .row .col-xs-12.col-md-6.col-lg-4 {
+    margin-bottom: 2em;
+  }
+  .our-services .box {
+    width: 95%;
+  }
+}
+
+@media (max-width: 670px) {
+  .about-us {
+    width: 95%;
+  }
+  .about-us h2 {
+    margin-bottom: 0.1rem;
+    margin-top: 10px;
+  }
+  .our-services .box {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
