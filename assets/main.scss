@@ -120,12 +120,57 @@ nav {
 }
 
 .toggle-content {
-    display: none;
-    // position: absolute;
-    // right: 0;
-    // background: white;
-    // height: 87vh;
+    // display: none;
+    position: absolute;
+    right: 0;
+    background: #f8ffff;
+    height: 87vh;
+    width: 400px;
+    // visibility: hidden;
     // transform: translateX(100%);
+
+    display: flex;
+    flex-direction: column;
+
+    .toggle-close {
+        width: 32px;
+        height: auto;
+        align-self: flex-end;
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 3em;
+        
+        &.quick-links {
+            position: relative;
+            top: 20%;
+            padding-left: 0;
+            text-align: center;
+            line-height: 2;
+        }
+        &.socials {
+            position: relative;
+            top: 36%;
+            line-height: 2.5;
+
+            img {
+                width: 28px;
+            }
+            img:nth-of-type(3), img:nth-of-type(4) {
+                width: 23px !important;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(51, 56, 56);
+            font-weight: 600;
+            display: block;
+        }
+    }
 }
 
 .hero-section {

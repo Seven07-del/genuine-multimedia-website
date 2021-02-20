@@ -138,7 +138,61 @@ nav .button-and-toggle .nav-toggle img {
 }
 
 .toggle-content {
-  display: none;
+  position: absolute;
+  right: 0;
+  background: #f8ffff;
+  height: 87vh;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.toggle-content .toggle-close {
+  width: 32px;
+  height: auto;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.toggle-content ul {
+  list-style: none;
+  padding-left: 3em;
+}
+
+.toggle-content ul.quick-links {
+  position: relative;
+  top: 20%;
+  padding-left: 0;
+  text-align: center;
+  line-height: 2;
+}
+
+.toggle-content ul.socials {
+  position: relative;
+  top: 36%;
+  line-height: 2.5;
+}
+
+.toggle-content ul.socials img {
+  width: 28px;
+}
+
+.toggle-content ul.socials img:nth-of-type(3), .toggle-content ul.socials img:nth-of-type(4) {
+  width: 23px !important;
+}
+
+.toggle-content ul a {
+  text-decoration: none;
+  color: #333838;
+  font-weight: 600;
+  display: block;
 }
 
 .hero-section {
