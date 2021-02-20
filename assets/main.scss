@@ -85,17 +85,25 @@ nav {
             a {
                 text-decoration: none;
                 display: block;
-                background-color: #fff;
                 text-align: center;
                 padding: 6px 14px 5px;
-                border: 2px solid #00cacc;
                 border-radius: 4px;
-                color: #00cacc;
                 font-style: normal;
                 font-size: 0.8em;
                 font-weight: 600;
                 font-size: 16px;
                 line-height: 24px;
+
+                letter-spacing: 1px;
+                background: #15d1d4;
+                color: white;
+                border: 2px solid #15d1d4;
+
+            }
+            a:hover, 
+            a:focus {
+                color: #15d1d4;
+                background: white;
             }
         }
         .nav-toggle {
@@ -113,6 +121,11 @@ nav {
 
 .toggle-content {
     display: none;
+    // position: absolute;
+    // right: 0;
+    // background: white;
+    // height: 87vh;
+    // transform: translateX(100%);
 }
 
 .hero-section {
@@ -433,6 +446,9 @@ footer {
     .about-us {
         width: 80%;
     }
+    .logo {
+        margin-left: -1em;
+    }
 }
 
 @media (max-width: 840px) {
@@ -468,4 +484,48 @@ footer {
     }
 }
 
-// Next on the list is media query for our services box where images and text boxes take up full width
+@media (max-width: 620px) {
+    .about-us {
+        width: 99%;
+        height: auto;
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+    }
+    .our-services .box {
+        width: 86%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 0;
+
+        .img {
+            width: 100%;
+            height: 50%;
+        }
+        .text {
+            width: 100%;
+
+            p {
+                padding-bottom: 0.8rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    .our-services .box {
+        width: 95%;
+    }
+    .logo {
+        margin-left: -0.4em;
+    }
+    .nav-button {
+        margin-right: -1.5em;
+    }
+    .nav-toggle {
+        margin-left: 2.5em !important;
+    }
+}
