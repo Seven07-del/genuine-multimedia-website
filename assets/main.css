@@ -138,9 +138,9 @@ nav .button-and-toggle .nav-toggle img {
 }
 
 .toggle-content {
-  position: absolute;
+  position: fixed;
   right: 0;
-  background: #f8ffff;
+  background: #637774;
   height: 87vh;
   width: 400px;
   visibility: hidden;
@@ -175,29 +175,38 @@ nav .button-and-toggle .nav-toggle img {
 
 .toggle-content ul.quick-links {
   position: relative;
-  top: 20%;
+  top: 15%;
   padding-left: 0;
-  text-align: center;
   line-height: 2;
+}
+
+.toggle-content ul.quick-links li {
+  border-bottom: white 1px solid;
+  padding: 5px;
+}
+
+.toggle-content ul.quick-links li a {
+  padding-left: 3rem;
+}
+
+.toggle-content ul.quick-links li:nth-of-type(1) {
+  border-top: white 1px solid;
 }
 
 .toggle-content ul.socials {
   position: relative;
-  top: 36%;
+  top: 31%;
   line-height: 2.5;
 }
 
-.toggle-content ul.socials img {
-  width: 28px;
-}
-
-.toggle-content ul.socials img:nth-of-type(3), .toggle-content ul.socials img:nth-of-type(4) {
-  width: 23px !important;
+.toggle-content ul.socials i {
+  color: snow;
+  margin-right: 10px;
 }
 
 .toggle-content ul a {
   text-decoration: none;
-  color: #333838;
+  color: white;
   font-weight: 600;
   display: block;
 }
@@ -537,7 +546,17 @@ footer p .sitename {
     width: 80%;
   }
   .about-us p {
-    width: 90%;
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 901px) {
+  .toggle-content ul.quick-links {
+    visibility: hidden;
+  }
+  .toggle-content ul.socials {
+    position: relative;
+    top: 5%;
   }
 }
 
