@@ -143,6 +143,7 @@ nav .button-and-toggle .nav-toggle img {
   background: #f8ffff;
   height: 87vh;
   width: 400px;
+  visibility: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,6 +153,10 @@ nav .button-and-toggle .nav-toggle img {
           flex-direction: column;
 }
 
+.toggle-content.active {
+  visibility: visible;
+}
+
 .toggle-content .toggle-close {
   width: 32px;
   height: auto;
@@ -159,6 +164,8 @@ nav .button-and-toggle .nav-toggle img {
       align-self: flex-end;
   margin-right: 2rem;
   margin-top: 1rem;
+  cursor: pointer;
+  visibility: hidden;
 }
 
 .toggle-content ul {
